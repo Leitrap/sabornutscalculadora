@@ -1,4 +1,7 @@
 "use client"
+// src/config.js
+const API_URL = "https://sabornutscalculadora-production.up.railway.app"; // Reemplázalo con tu URL real
+export default API_URL;
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
