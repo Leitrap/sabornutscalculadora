@@ -6,6 +6,9 @@ import { Toaster } from "@/components/ui/toaster"
 import { CartProvider } from "@/components/cart-provider"
 import { ThemeProvider } from "@/components/theme-provider"
 import { VendorProvider } from "@/components/vendor-provider"
+// src/config.js
+const API_URL = "https://sabornutscalculadora-production.up.railway.app"; // Reemplázalo con tu URL real
+export default API_URL;
 
 const inter = Inter({ subsets: ["latin"] })
 
